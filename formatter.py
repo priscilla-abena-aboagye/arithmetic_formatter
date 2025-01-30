@@ -1,9 +1,16 @@
 def arithmetic_arranger(problems, show_answers=False):
+
     if len(problems) > 5:
-        raise ValueError('Error: Too many problems')
-    operator = ["+", "-"]
-    if operator not in ["+", "-"]:
-        raise ValueError("Error: Operator must be '+' or '-'.")
+        return 'Error: Too many problems.'
+
+    operators = ["+", "-"]
+    if operators not in operators:
+        return "Error: Operator must be '+' or '-'."
+    for number in arithmetic_arranger:
+        pass
+    else:
+        return "Error: Operator must be '+' or '-'."
+        
 
     return problems
 

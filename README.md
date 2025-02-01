@@ -4,3 +4,4 @@ It takes simple arithmetic problems and formats them into a structured output. T
 ## Features
 - **Validation**: Ensures only addition and subtraction operations are allowed.
 - **Formatting**: Displays problems properly aligned.
+- **Error Handling**: Provides meaningful messages for incorrect inputs
